@@ -1,0 +1,35 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.ipynb_checkpoints/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env
+.venv/
+env/
+
+# Project datasets and artifacts (keep code and .vscode tracked)
+*/data/
+*/data_raw/
+Audio_Lab6/data/
+BBC_News_Lab4/data_raw/
+ImageSegmentation_Lab2/dataset_tshirt/
+ImageProcessing_Lab1/Nekit.png
+PerformanceAnalysis_Lab3/artifacts/
+PerformanceAnalysis_Lab3/results.csv
+PerformanceAnalysis_Lab3/Suicide_Ideation_Dataset(Twitter-based).csv
+Seq2Seq_Lab5/data/
+Seq2Seq_Lab5/best_seq2seq.pt
+
+# Large model/binary files
+*.pt
+*.joblib
+*.pkl
+*.h5
+*.onnx
